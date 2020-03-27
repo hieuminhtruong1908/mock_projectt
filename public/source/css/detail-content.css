@@ -1,0 +1,42 @@
+.title-content h4 {
+	background-color: #DC143C;
+	width: 200px;
+	height: 40px;
+	padding-left: 30px;
+	color: #ffffff;
+	position: absolute;
+	margin-top: 2%;
+}
+
+.header-content .title {
+	margin-left: 33%;
+	margin-top: 30px;
+}
+.header-content .fa-edit {
+	color: blue;
+}
+.header-content ul li {
+	float: left;
+	margin-left: 12%;
+	margin-top: 3%;
+	list-style: none;
+}
+
+.header-content .creator-content {
+	margin-top: 8%; 
+	margin-left: 41%; 
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.header-content .creator-content .fa-user-check {
+	color: blue;
+}
+
+.header-content .creator-content span {
+	color: #DC143C;
+}
+
+.description-content p {
+	padding: 3%;
+}

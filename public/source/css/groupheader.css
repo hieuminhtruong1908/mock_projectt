@@ -1,0 +1,70 @@
+#cover .cover-imagee{
+    width: 100%;
+    min-height: 500px;
+    background-image:url('https://zicxa.com/hinh-anh/wp-content/uploads/2019/09/T%E1%BB%95ng-h%E1%BB%A3p-c%C3%A1c-h%C3%ACnh-%E1%BA%A3nh-l%C3%A0m-h%C3%ACnh-n%E1%BB%81n-m%C3%A0u-%C4%91%E1%BB%8F-%C4%91%E1%BA%B9p-nh%E1%BA%A5t-5.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    position: relative;
+}
+
+#cover .banner-group{
+    margin-left: -6%;
+    position: absolute;
+    top: 50%;
+
+}
+.relactivee{
+    position: static;
+}
+.image-container {
+    position: relative;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.image-container:hover .image {
+    opacity: 0.3;
+}
+
+.image-container:hover .middle {
+    opacity: 1;
+}
+.nice-select{
+    height: 45px;
+    line-height: 45px;
+}
+
+#cover-group .btn-secondary{
+    position: absolute;
+
+}
+
+#btnChangePictureCover{
+    top: 1%;
+    right: 1%;
+    position: absolute;
+    width: 3.5%;
+    background-image: url('../img/group/icon_camera.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
